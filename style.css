@@ -1,0 +1,57 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f1fbff;
+}
+.navbar-brand{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption{
+    padding-bottom: 15%;
+    width: 50%;
+    margin: auto;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    text-transform:uppercase;
+}
+.carousel-caption p{
+    line-height: 30px;
+    font-size: 19px;
+}
+.sectionpadding{
+    padding: 100px 0px;
+}
+.isize{
+    font-size: 40px;
+}
+@media screen and (max-width:750px) {
+    .carousel-item {
+        height: 550px;
+    }
+    .carousel-item img{
+        height: 550px;
+    }
+    .carousel-caption{
+        padding-bottom: 15%;
+        width: 75%;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
